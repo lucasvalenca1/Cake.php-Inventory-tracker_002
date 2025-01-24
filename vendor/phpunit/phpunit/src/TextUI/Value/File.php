@@ -12,8 +12,28 @@ namespace PHPUnit\TextUI\Configuration;
 /**
  * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
  *
- * @internal This interface is not covered by the backward compatibility promise for PHPUnit
+ * @immutable
  */
-interface Exception extends \PHPUnit\TextUI\Exception
+final readonly class File
 {
+    /**
+     * @var non-empty-string
+     */
+    private string $path;
+
+    /**
+     * @param non-empty-string $path
+     */
+    public function __construct(string $path)
+    {
+        $this->path = $path;
+    }
+
+    /**
+     * @return non-empty-string
+     */
+    public function path(): string
+    {
+        return $this->path;
+    }
 }

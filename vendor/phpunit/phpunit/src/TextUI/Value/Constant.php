@@ -12,8 +12,26 @@ namespace PHPUnit\TextUI\Configuration;
 /**
  * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
  *
- * @internal This interface is not covered by the backward compatibility promise for PHPUnit
+ * @immutable
  */
-interface Exception extends \PHPUnit\TextUI\Exception
+final readonly class Constant
 {
+    private string $name;
+    private bool|string $value;
+
+    public function __construct(string $name, bool|string $value)
+    {
+        $this->name  = $name;
+        $this->value = $value;
+    }
+
+    public function name(): string
+    {
+        return $this->name;
+    }
+
+    public function value(): bool|string
+    {
+        return $this->value;
+    }
 }

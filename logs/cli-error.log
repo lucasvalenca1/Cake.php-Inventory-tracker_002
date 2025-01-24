@@ -1,0 +1,14 @@
+2025-01-21 15:04:43 warning: file_put_contents(C:\Users\lucas\inventory_tracker\config\Migrations\schema-dump-default.lock): Failed to open stream: No such file or directory
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Users\lucas\inventory_tracker\vendor\cakephp\migrations\src\Command\DumpCommand.php C:\Users\lucas\inventory_tracker\vendor\cakephp\migrations\src\Command\DumpCommand.php, line 139
+Migrations\Command\DumpCommand->execute() C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 202
+Cake\Console\BaseCommand->run() C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 294
+Cake\Console\BaseCommand->executeCommand() C:\Users\lucas\inventory_tracker\vendor\cakephp\migrations\src\Command\MigrateCommand.php, line 181
+Migrations\Command\MigrateCommand->executeMigrations() C:\Users\lucas\inventory_tracker\vendor\cakephp\migrations\src\Command\MigrateCommand.php, line 107
+Migrations\Command\MigrateCommand->execute() C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 202
+Cake\Console\BaseCommand->run() C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 330
+Cake\Console\CommandRunner->runCommand() C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\Users\lucas\inventory_tracker\bin\cake.php, line 10
+[main]
+

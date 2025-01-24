@@ -1,0 +1,2674 @@
+2025-01-21 15:14:38 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\lucas\inventory_tracker\templates\Products\index.php`
+- `C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\templates\Products\index.php`
+ in C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\lucas\\inventory_tracker\\templates\\',
+    1 => 'C:\\Users\\lucas\\inventory_tracker\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-21 15:17:35 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\lucas\inventory_tracker\templates\Products\index.php`
+- `C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\templates\Products\index.php`
+ in C:\Users\lucas\inventory_tracker\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\lucas\\inventory_tracker\\templates\\',
+    1 => 'C:\\Users\\lucas\\inventory_tracker\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 12:40:25 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `TrashBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'TrashBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:26
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 12:40:46 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `TrashBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'TrashBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:26
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 12:54:24 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `SoftDeleteBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'SoftDeleteBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 12:54:30 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `SoftDeleteBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'SoftDeleteBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 12:54:50 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `SoftDeleteBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'SoftDeleteBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 12:56:58 error: [Cake\ORM\Exception\MissingBehaviorException] Behavior class `SoftDeleteBehavior` could not be found. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 129
+Exception Attributes: array (
+  'class' => 'SoftDeleteBehavior',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 13:15:55 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\add.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_001\templates\Products\add.php`
+- `C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\templates\Products\add.php`
+ in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\add.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 13:15:59 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_001\templates\Products\index.php`
+- `C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\templates\Products\index.php`
+ in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 13:48:17 error: [LogicException] `App\Model\Behavior\SoftDeleteBehavior` contains duplicate method `softdelete` which is already provided by `App\Model\Behavior\SoftDeleteBehavior`. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 206
+Stack Trace:
+- CORE\src\ORM\BehaviorRegistry.php:158
+- CORE\src\Core\ObjectRegistry.php:115
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:27
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 13:48:27 error: [LogicException] `App\Model\Behavior\SoftDeleteBehavior` contains duplicate method `softdelete` which is already provided by `App\Model\Behavior\SoftDeleteBehavior`. in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php on line 206
+Stack Trace:
+- CORE\src\ORM\BehaviorRegistry.php:158
+- CORE\src\Core\ObjectRegistry.php:115
+- CORE\src\ORM\Table.php:774
+- APP/Model\Table\ProductsTable.php:27
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 13:56:49 error: [BadMethodCallException] Unknown method `newQuery` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:44
+- APP/Model\Table\ProductsTable.php:38
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 13:56:58 error: [BadMethodCallException] Unknown method `newQuery` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:44
+- APP/Model\Table\ProductsTable.php:38
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 13:59:48 error: [BadMethodCallException] Unknown method `newQuery` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:44
+- APP/Model\Table\ProductsTable.php:38
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 13:59:53 error: [BadMethodCallException] Unknown method `newQuery` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:44
+- APP/Model\Table\ProductsTable.php:38
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 14:00:53 error: [BadMethodCallException] Unknown method `addVirtualField` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 14:00:57 error: [BadMethodCallException] Unknown method `addVirtualField` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 14:01:01 error: [BadMethodCallException] Unknown method `addVirtualField` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:33
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 14:04:11 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 14:04:13 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 14:07:13 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 14:07:18 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 14:07:36 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 14:07:40 error: [TypeError] App\Model\Table\ProductsTable::statusExpression(): Return value must be of type Cake\Database\Expression\QueryExpression, Cake\Database\Expression\CaseStatementExpression returned in C:\xampp\htdocs\inventory_tracker_001\src\Model\Table\ProductsTable.php on line 44
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:34
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:46
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 15:26:03 error: [ParseError] syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\inventory_tracker_001\src\Model\Entity\Product.php on line 34
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\Core\App.php:59
+- CORE\src\ORM\Table.php:738
+- APP/Model\Table\ProductsTable.php:20
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:20
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:40:00 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_001\templates\Products\index.php`
+- `C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\templates\Products\index.php`
+ in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:43:27 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_001\templates\Products\index.php`
+- `C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\templates\Products\index.php`
+ in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_001\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:49:37 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 20
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:49:38 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:49:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:49:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:49:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:49:59 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 20
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products?search=promo
+2025-01-22 15:50:00 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products?search=promo
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:50:00 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products?search=promo
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:50:00 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products?search=promo
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:50:00 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products?search=promo
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:54:37 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 20
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:54:37 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:54:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:54:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:54:37 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:58:13 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 15:58:14 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:58:14 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:58:14 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 15:58:14 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:13:41 error: [TypeError] Authentication\Middleware\AuthenticationMiddleware::__construct(): Argument #1 ($subject) must be of type Authentication\AuthenticationServiceInterface|Authentication\AuthenticationServiceProviderInterface, App\Application given, called in C:\xampp\htdocs\inventory_tracker_001\src\Application.php on line 49 in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php on line 61
+Stack Trace:
+- APP/Application.php:49
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-01-22 16:13:52 error: [TypeError] Authentication\Middleware\AuthenticationMiddleware::__construct(): Argument #1 ($subject) must be of type Authentication\AuthenticationServiceInterface|Authentication\AuthenticationServiceProviderInterface, App\Application given, called in C:\xampp\htdocs\inventory_tracker_001\src\Application.php on line 49 in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php on line 61
+Stack Trace:
+- APP/Application.php:49
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-01-22 16:14:27 error: [TypeError] Authentication\Middleware\AuthenticationMiddleware::__construct(): Argument #1 ($subject) must be of type Authentication\AuthenticationServiceInterface|Authentication\AuthenticationServiceProviderInterface, App\Application given, called in C:\xampp\htdocs\inventory_tracker_001\src\Application.php on line 49 in C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php on line 61
+Stack Trace:
+- APP/Application.php:49
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-01-22 16:25:16 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 16:25:16 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:16 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:16 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:16 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:19 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-22 16:25:20 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products/add
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products/add
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products/add
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products/add
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:26 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_001\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-22 16:25:27 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:27 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:27 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-22 16:25:27 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_001\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_001\webroot\index.php, line 37
+[main]
+
+2025-01-23 15:43:56 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-23 15:43:56 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-23 15:43:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-23 15:43:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-23 15:43:56 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:29 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 07:22:30 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:30 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:30 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:30 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:36 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 07:22:36 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 07:22:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:07 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:20:08 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:08 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:37 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:20:38 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:20:38 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:21:09 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:21:10 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:21:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:21:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:21:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:28:09 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:28:10 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:28:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:28:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:28:10 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:10 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:37:11 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:11 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:46 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:37:47 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:37:47 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:38:35 error: [Error] Call to a member function allowUnauthenticated() on null in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 21
+Stack Trace:
+- CORE\src\Event\EventManager.php:334
+- CORE\src\Event\EventManager.php:312
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:599
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:38:36 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:38:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:38:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:38:36 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /products
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\inventory_tracker_002\webroot\index.php, line 37
+[main]
+
+2025-01-24 08:41:49 error: [ParseError] syntax error, unexpected token "public" in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 23
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\Core\App.php:162
+- CORE\src\Core\App.php:69
+- CORE\src\Controller\ControllerFactory.php:324
+- CORE\src\Controller\ControllerFactory.php:75
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:42:22 error: [ParseError] syntax error, unexpected token "public" in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 23
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\Core\App.php:162
+- CORE\src\Core\App.php:69
+- CORE\src\Controller\ControllerFactory.php:324
+- CORE\src\Controller\ControllerFactory.php:75
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:42:32 error: [ParseError] syntax error, unexpected token "public" in C:\xampp\htdocs\inventory_tracker_002\src\Controller\ProductsController.php on line 23
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\Core\App.php:162
+- CORE\src\Core\App.php:69
+- CORE\src\Controller\ControllerFactory.php:324
+- CORE\src\Controller\ControllerFactory.php:75
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 08:44:09 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\add.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_002\templates\Products\add.php`
+- `C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\templates\Products\add.php`
+ in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\add.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-24 08:54:52 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\edit.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_002\templates\Products\edit.php`
+- `C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\templates\Products\edit.php`
+ in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\edit.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/edit/1
+Referer URL: http://localhost:8765/products
+2025-01-24 09:05:01 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\edit.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_002\templates\Products\edit.php`
+- `C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\templates\Products\edit.php`
+ in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\edit.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/edit/10
+Referer URL: http://localhost:8765/products
+2025-01-24 09:05:23 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\edit.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_002\templates\Products\edit.php`
+- `C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\templates\Products\edit.php`
+ in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\edit.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/edit/10
+Referer URL: http://localhost:8765/products
+2025-01-24 09:09:39 error: [Cake\View\Exception\MissingTemplateException] Template file `Products\add.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\inventory_tracker_002\templates\Products\add.php`
+- `C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\templates\Products\add.php`
+ in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Products\\add.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\inventory_tracker_002\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:707
+- CORE\src\Controller\Controller.php:511
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-24 09:09:57 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table `products` with primary key `[NULL]`. in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\ORM\Table.php on line 1509
+Stack Trace:
+- APP/Controller\ProductsController.php:74
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/edit
+2025-01-24 09:46:38 error: [BadMethodCallException] Unknown method `schema` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:31
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:27
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
+2025-01-24 09:46:52 error: [BadMethodCallException] Unknown method `schema` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:31
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:60
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products/add
+2025-01-24 09:52:28 error: [BadMethodCallException] Unknown method `schema` called on `App\Model\Table\ProductsTable` in C:\xampp\htdocs\inventory_tracker_002\vendor\cakephp\cakephp\src\ORM\Table.php on line 2811
+Stack Trace:
+- APP/Model\Table\ProductsTable.php:31
+- CORE\src\ORM\Table.php:328
+- CORE\src\ORM\Locator\TableLocator.php:319
+- CORE\src\ORM\Locator\TableLocator.php:272
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:212
+- CORE\src\ORM\Locator\LocatorAwareTrait.php:96
+- CORE\src\Controller\Controller.php:302
+- APP/Controller\ProductsController.php:27
+- CORE\src\Controller\Controller.php:500
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:107
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /products
